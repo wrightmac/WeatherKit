@@ -95,13 +95,35 @@ The DHT22 is a low-cost, but accurate, digital temperature and humidity sensor. 
 <P>
 <B>Wiring for the BMP280</B>
 <P>
-BMP820 Pin		Arduino Pin
-Vcc			3.3v
-GND			Ground
-SCL			A5
-SDA			A4
-CSB			Open, not used
-SD0			Pull high with power with xx resistor for address 0x76
-			pull low with ground xx resistor for address 0x77
+<table class="tg">
+  <tr>
+    <th class="tg-e3zv">BMP280 Pins</th>
+    <th class="tg-e3zv">Arduino Pins</th>
+  </tr>
+  <tr>
+    <td class="tg-031e">Vcc</td>
+    <td class="tg-031e">5v</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Gnd</td>
+    <td class="tg-031e">Ground</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">SCL</td>
+    <td class="tg-031e">A5</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">SDA</td>
+    <td class="tg-031e">A4</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">CSB</td>
+    <td class="tg-yw4l">Open</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">SD0</td>
+    <td class="tg-yw4l">High - 0x76<br>Low - 0x77</td>
+  </tr>
+</table>
 <P>
 
