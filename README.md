@@ -91,6 +91,8 @@ The LCD is based on the old Nokia 5110 LCD screen used in their phones. It is a 
   </tr>
 </table>
 The DHT22 is a low-cost, but accurate, digital temperature and humidity sensor. It has a captive humidity sensor and a thermistor for reading the ambient temperature. It is 3-5v tolerant for both the Vcc (power in) and digital signal line (pin 2). The pins are 1 -4, left to right, looking at the front (the grill side).
+<P>
+Arduino pin 2 is used in this sketch, but any other pin could be used on the Arudino. 
 
 <P>
 <B>Wiring for the BMP280</B>
