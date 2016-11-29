@@ -15,6 +15,11 @@ xx xx Female to female Jumper Cables<BR>
 2 x 10k resistors - for sensors<BR>
 1 x 470Ohm resistor - for LCD<BR>
 <P>
+<B><I>Software needed:</I></B>
+<P>
+Arduino IDE 1.6.x
+Various Libraries, find links in the docs. 
+<P>
 <H2><I>Let's get started!</I></H2>
 <P>
 
@@ -63,9 +68,9 @@ Fritzig drawing - need to rotate Uno board and "rewire"
   </tr>
 </table>
 <P>		
-The LCD is based on the old Nokia 5110 LCD screen used in their phones. It is a decent sreen and easy to find. It is 84x48 pixels. This model uses SPI for its communication with the Arduino. There are other ones out there that use the I2C protocol which only requires 4 pins. There are some different libraries out there. I used xxx in this project. The basic functions are well-documented and they also have an additional library with graphical functions in it as well. Keeping some historical data and being able to graph them over time is a good additional project. One could store the data on an SD card or rely it via wireless. There is a section of code that shows how to output data in a CVS format for later analysis. 
+The LCD is based on the old Nokia 5110 LCD screen used in their past phones. It is a decent sreen and easy to find. Its' display is 48 rows by 84 columns. It has a PCD8544 controller used for all LCD functions. This model uses SPI for its communication with the Arduino. There are other ones out there that use the I2C protocol which only requires 4 pins. There are some different libraries out there too. I used xxx in this project. The basic functions are well-documented and they also have an additional library with graphical functions. <I>Keeping some historical data and being able to graph them over time is a good additional project. One could store the data on an SD card or rely it via wireless. There is a section of code that shows how to output data in a CVS format for later analysis. </I>
 <P>
-The library is <A HREF="http://www.rinkydinkelectronics.com/download.php?f=LCD5110_Basic.zip">located here.</A> 
+The library used is <A HREF="http://www.rinkydinkelectronics.com/download.php?f=LCD5110_Basic.zip">located here.</A> 
 		
 <P>
 <B>Wiring for the DHT22</B>
