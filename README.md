@@ -68,11 +68,28 @@ The LCD is based on the old Nokia 5110 LCD screen used in their phones. It is a 
 <P>
 <B>Wiring for the DHT22</B>
 <P>	
-	DHT22 Pin	Arduino Pin
-	1		5v
-	2		2 (plus add 10k resistor to power)
-	3		Open, not used
-	4		Ground
+<table class="tg">
+  <tr>
+    <th class="tg-e3zv">DHT22 Pins</th>
+    <th class="tg-hgcj">Arduino Pins</th>
+  </tr>
+  <tr>
+    <td class="tg-031e">1 - Vcc</td>
+    <td class="tg-s6z2">5v</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">2 - Signal + 10k</td>
+    <td class="tg-s6z2">2</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">3 - Open</td>
+    <td class="tg-s6z2">Open</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">4 - Gnd</td>
+    <td class="tg-s6z2">Ground</td>
+  </tr>
+</table>
 The DHT22 is a low-cost, but accurate, digital temperature and humidity sensor. It has a captive humidity sensor and a thermistor for reading the ambient temperature. It is 3-5v tolerant for both the Vcc (power in) and digital signal line (pin 2). The pins are 1 -4, left to right, looking at the front (the grill side).
 
 <P>
