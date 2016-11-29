@@ -15,7 +15,7 @@ xx xx Female to female Jumper Cables<BR>
 2 x 10k resistors - for sensors<BR>
 1 x 470Ohm resistor - for LCD<BR>
 <P>
-Let's get started!
+<H2><I>Let's get started!</I></H2>
 <P>
 
 Fritzig drawing - need to rotate Uno board and "rewire"
