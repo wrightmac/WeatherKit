@@ -5,15 +5,15 @@ This project is for a basic, Arduino based, weather monitoring station. While th
 <P>
 <B><I>Parts needed:</I></B>
 <P>
-1 x Arduino Uno clone
-1 x 25cm micro USB data cable
-1 x DHT22 sensor
-1 x BMP280 sensor
-1 x 5110 84x48 LCD screen
-xx x Male to Female Jumper Cables
-xx xx Female to female Jumper Cables
-2 x 10k resistors - for sensors
-1 x 470Ohm resistor - for LCD
+1 x Arduino Uno clone<BR>
+1 x 25cm micro USB data cable<BR>
+1 x DHT22 sensor<BR>
+1 x BMP280 sensor<BR>
+1 x 5110 84x48 LCD screen<BR>
+xx x Male to Female Jumper Cables<BR>
+xx xx Female to female Jumper Cables<BR>
+2 x 10k resistors - for sensors<BR>
+1 x 470Ohm resistor - for LCD<BR>
 <P>
 Wire the parts as shown / listed below. . . 
 
