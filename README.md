@@ -22,15 +22,55 @@ Fritzig drawing - need to rotate Uno board and "rewire"
 	upload to here
 <P>	
 <B>Wiring for the LCD</B>
-		LCD Pin						Arduino	Pin
-		1	- RST								12
-		2 - CE							  11										
-		3 - DC								10
-		4 - Dir								9
-		5 - Clk								8
-		6 - Vcc								3.3v
-		7 - BL								7
-		8 - Gnd								Ground
+<P>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-e3zv{font-weight:bold}
+.tg .tg-hgcj{font-weight:bold;text-align:center}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-e3zv">LCD Pin</th>
+    <th class="tg-hgcj">Arduino Pin</th>
+  </tr>
+  <tr>
+    <td class="tg-031e">1 - RST</td>
+    <td class="tg-s6z2">12</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">2 - CE</td>
+    <td class="tg-s6z2">11</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">3 - DC</td>
+    <td class="tg-s6z2">10</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">4 - Dir</td>
+    <td class="tg-s6z2">9</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">5 -Clk</td>
+    <td class="tg-s6z2">8</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">6 - Vcc</td>
+    <td class="tg-baqh">3.3v</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">7 - BL</td>
+    <td class="tg-baqh">7 - with 470Ohm resistor</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">8 - GND</td>
+    <td class="tg-baqh">Ground</td>
+  </tr>
+</table>
 <P>		
 The LCD is based on the old Nokia 5110 LCD screen used in their phones. It is a decent sreen and easy to find. It is 84x48 pixels. This model uses SPI for its communication with the Arduino. There are other ones out there that use the I2C protocol which only requires 4 pins. There are some different libraries out there. I used xxx in this project. The basic functions are well-documented and they also have an additional library with graphical functions in it as well. Keeping some historical data and being able to graph them over time is a good additional project. One could store the data on an SD card or rely it via wireless. There is a section of code that shows how to output data in a CVS format for later analysis. The library is located here. 
 		
