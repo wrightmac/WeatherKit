@@ -26,55 +26,7 @@ Various Libraries, find links in the docs.
 Fritzig drawing - need to rotate Uno board and "rewire"
 	upload to here
 <P>	
-<H2>The LCD</H2>
-<P>
 
-<table class="tg">
-  <tr>
-    <th class="tg-e3zv">LCD Pin</th>
-    <th class="tg-hgcj">Arduino Pin</th>
-  </tr>
-  <tr>
-    <td class="tg-031e">1 - RST</td>
-    <td class="tg-s6z2">12</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">2 - CE</td>
-    <td class="tg-s6z2">11</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">3 - DC</td>
-    <td class="tg-s6z2">10</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">4 - Dir</td>
-    <td class="tg-s6z2">9</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">5 -Clk</td>
-    <td class="tg-s6z2">8</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">6 - Vcc</td>
-    <td class="tg-baqh">3.3v</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">7 - BL</td>
-    <td class="tg-baqh">7 - with 470Ohm resistor</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">8 - GND</td>
-    <td class="tg-baqh">Ground</td>
-  </tr>
-</table>
-<P>		
-The LCD is based on the old Nokia 5110 LCD screen used in their past phones. It is a decent sreen and easy to find. Its' display is 48 rows by 84 columns. It has a PCD8544 controller used for all LCD functions. This model uses SPI for its communication with the Arduino. There are other ones out there that use the I2C protocol which only requires 4 pins. There are some different libraries out there too. I used xxx in this project. The basic functions are well-documented and they also have an additional library with graphical functions. 
-
-<I>To Do:</I>
-<BR>
-<I>Keeping some historical data and being able to graph them over time is a good additional project. One could store the data on an SD card or rely it via wireless. There is a section of code that shows how to output data in a CVS format for later analysis. </I>
-<P>
-The library used is <A HREF="http://www.rinkydinkelectronics.com/download.php?f=LCD5110_Basic.zip">located here.</A> 
 		
 <P>
 <H2>The DHT22</H2>
@@ -138,5 +90,54 @@ Arduino pin 2 is used in this sketch, but any other pin could be used.
     <td class="tg-yw4l">High - 0x76<br>Low - 0x77</td>
   </tr>
 </table>
+<H2>The LCD</H2>
+<P>
+
+<table class="tg">
+  <tr>
+    <th class="tg-e3zv">LCD Pin</th>
+    <th class="tg-hgcj">Arduino Pin</th>
+  </tr>
+  <tr>
+    <td class="tg-031e">1 - RST</td>
+    <td class="tg-s6z2">12</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">2 - CE</td>
+    <td class="tg-s6z2">11</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">3 - DC</td>
+    <td class="tg-s6z2">10</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">4 - Dir</td>
+    <td class="tg-s6z2">9</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">5 -Clk</td>
+    <td class="tg-s6z2">8</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">6 - Vcc</td>
+    <td class="tg-baqh">3.3v</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">7 - BL</td>
+    <td class="tg-baqh">7 - with 470Ohm resistor</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">8 - GND</td>
+    <td class="tg-baqh">Ground</td>
+  </tr>
+</table>
+<P>		
+The LCD is based on the old Nokia 5110 LCD screen used in their past phones. It is a decent sreen and easy to find. Its' display is 48 rows by 84 columns. It has a PCD8544 controller used for all LCD functions. This model uses SPI for its communication with the Arduino. There are other ones out there that use the I2C protocol which only requires 4 pins. There are some different libraries out there too. I used xxx in this project. The basic functions are well-documented and they also have an additional library with graphical functions. 
+
+<I>To Do:</I>
+<BR>
+<I>Keeping some historical data and being able to graph them over time is a good additional project. One could store the data on an SD card or rely it via wireless. There is a section of code that shows how to output data in a CVS format for later analysis. </I>
+<P>
+The library used is <A HREF="http://www.rinkydinkelectronics.com/download.php?f=LCD5110_Basic.zip">located here.</A> 
 <P>
 
