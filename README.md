@@ -56,9 +56,12 @@ Fritzig drawing - need to rotate Uno board and "rewire"
     <td class="tg-s6z2">Ground</td>
   </tr>
 </table>
-The DHT22 is a low-cost, but accurate, digital temperature and humidity sensor. It has a captive humidity sensor and a thermistor for reading the ambient temperature. It is 3-5v tolerant for both the Vcc (power in) and digital signal line (pin 2). The pins are 1 -4, left to right, looking at the front (the grill side).
+The DHT22 is a low-cost, but accurate, digital temperature and humidity sensor. It has a captive humidity sensor and a thermistor for reading the ambient temperature. It is 3-6v tolerant for both the Vcc (power in) and digital signal line (pin 2). The pins are 1 -4, left to right, looking at the front (the grill side).
 <P>
 Arduino pin 2 is used in this sketch, but any other pin could be used. 
+<P>
+Here is a link to the <A HREF="http://www.electroschematics.com/wp-content/uploads/2015/02/DHT22-datasheet.pdf">datasheet for the DHT22.</A>
+<P>
 
 <P>
 <H2>The BMP280</H2>
