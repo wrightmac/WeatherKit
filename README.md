@@ -22,7 +22,10 @@ Various Libraries, find links in the docs.
 <P>
 <H2><I>Let's get started!</I></H2>
 <P>
-
+The order of the parts listed below are the order I wired up and tested each part. It makes trouble shooting easier to take each component, wire it up, load a test sketch, and make sure it works. Nothing is more frustrating than plugging in 14 wires and nothing happening. 
+<P>
+Be sure and check your connections. I will admit to pulling an oops and damaging a component by not paying attention to where those pesky Vcc and ground wires were going. If you have issues, check your wiring first. If you have a multimeter, you can also make sure you have continuity and expected voltages. 
+<P>
 Fritzig drawing - need to rotate Uno board and "rewire"
 	upload to here
 <P>	
