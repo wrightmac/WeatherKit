@@ -26,7 +26,7 @@ Various Libraries, find links in the docs.
 Fritzig drawing - need to rotate Uno board and "rewire"
 	upload to here
 <P>	
-<B>Wiring for the LCD</B>
+<H2>The LCD</H2>
 <P>
 
 <table class="tg">
@@ -77,7 +77,7 @@ The LCD is based on the old Nokia 5110 LCD screen used in their past phones. It 
 The library used is <A HREF="http://www.rinkydinkelectronics.com/download.php?f=LCD5110_Basic.zip">located here.</A> 
 		
 <P>
-<B>Wiring for the DHT22</B>
+<H2>The DHT22</H2>
 <P>	
 <table class="tg">
   <tr>
@@ -106,7 +106,7 @@ The DHT22 is a low-cost, but accurate, digital temperature and humidity sensor. 
 Arduino pin 2 is used in this sketch, but any other pin could be used. 
 
 <P>
-<B>Wiring for the BMP280</B>
+<H2>The BMP280</H2>
 <P>
 <table class="tg">
   <tr>
