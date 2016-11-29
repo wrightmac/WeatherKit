@@ -96,10 +96,13 @@ Here is a link to the <A HREF="http://www.electroschematics.com/wp-content/uploa
   </tr>
 </table>
 <P>
-The BMP280 is a barometric pressure and temperature sensor. It is a new generation of sensor with great accuracy. In fact with a little work one can get altimeter reading within +- 1M. (I haven't tested that claim yet) It communicates with the Arduino via the I2C interface. The address must be set either high or low as if it is left at default it won't work. To set the address high (0x76) use a 10k resistor and connect it to power. If you connect it to ground in the same fashion it will use the low address (0x77). 
-<BR>A good troubleshooting tool to use when first working with I2C is an I2C Scanner. There is a copy of it in my github. I have started a cheatsheet list of the devices I have and what addresses they have. Each time I get a new one I will run it against i2c to make sure it works and see what address to use. 
+The BMP280 is a barometric pressure and temperature sensor. It is a sensor with great accuracy. In fact with a little work one can obtain an altimeter reading within +/- 1M the sensors are so accurate. (I haven't tested that claim yet) It communicates with the Arduino via the I2C interface. The address must be set either high or low as if it is left at default it won't work. To set the address high (0x76) use a 10k resistor and connect it to power. If you connect it to ground in the same fashion it will use the low address (0x77). 
+<P>
+<I>A good troubleshooting tool to use when first working with I2C is an I2C Scanner. There is a copy of it in my github. I have started a cheatsheet list of the devices I have and what addresses they have. Each time I get a new one I will run it against i2c to make sure it works and see what address to use. </I>
 <P>
 Here is a link to the <A HREF="https://www.bosch-sensortec.com/bst/products/all_products/bmp280">BMP280 datasheet.</A>
+<P>
+And here is the link to the <A HREF="https://github.com/sparkfun/SparkFun_BME280_Arduino_Library">BME280 library </A>used here. 
 <H2>The LCD</H2>
 <P>
 
