@@ -63,7 +63,9 @@ Fritzig drawing - need to rotate Uno board and "rewire"
   </tr>
 </table>
 <P>		
-The LCD is based on the old Nokia 5110 LCD screen used in their phones. It is a decent sreen and easy to find. It is 84x48 pixels. This model uses SPI for its communication with the Arduino. There are other ones out there that use the I2C protocol which only requires 4 pins. There are some different libraries out there. I used xxx in this project. The basic functions are well-documented and they also have an additional library with graphical functions in it as well. Keeping some historical data and being able to graph them over time is a good additional project. One could store the data on an SD card or rely it via wireless. There is a section of code that shows how to output data in a CVS format for later analysis. The library is located here. 
+The LCD is based on the old Nokia 5110 LCD screen used in their phones. It is a decent sreen and easy to find. It is 84x48 pixels. This model uses SPI for its communication with the Arduino. There are other ones out there that use the I2C protocol which only requires 4 pins. There are some different libraries out there. I used xxx in this project. The basic functions are well-documented and they also have an additional library with graphical functions in it as well. Keeping some historical data and being able to graph them over time is a good additional project. One could store the data on an SD card or rely it via wireless. There is a section of code that shows how to output data in a CVS format for later analysis. 
+<P>
+The library is <A HREF="http://www.rinkydinkelectronics.com/download.php?f=LCD5110_Basic.zip">located here.</A> 
 		
 <P>
 <B>Wiring for the DHT22</B>
@@ -92,7 +94,7 @@ The LCD is based on the old Nokia 5110 LCD screen used in their phones. It is a 
 </table>
 The DHT22 is a low-cost, but accurate, digital temperature and humidity sensor. It has a captive humidity sensor and a thermistor for reading the ambient temperature. It is 3-5v tolerant for both the Vcc (power in) and digital signal line (pin 2). The pins are 1 -4, left to right, looking at the front (the grill side).
 <P>
-Arduino pin 2 is used in this sketch, but any other pin could be used on the Arudino. 
+Arduino pin 2 is used in this sketch, but any other pin could be used. 
 
 <P>
 <B>Wiring for the BMP280</B>
