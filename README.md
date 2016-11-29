@@ -15,7 +15,8 @@ xx xx Female to female Jumper Cables<BR>
 2 x 10k resistors - for sensors<BR>
 1 x 470Ohm resistor - for LCD<BR>
 <P>
-Wire the parts as shown / listed below. . . 
+Let's get started!
+<P>
 
 Fritzig drawing - need to rotate Uno board and "rewire"
 	upload to here
@@ -31,19 +32,28 @@ Fritzig drawing - need to rotate Uno board and "rewire"
 		7 - BL								7
 		8 - Gnd								Ground
 <P>		
-The LCD is based on the old Nokia 5110 LCD screen used in their phones. It is a decent sreen and easy to find. It is 84x48 pixels. There are some different libraries out there. I used xxx in this project. The basic functions are well-documented and they also have an additional library with graphical functions in it as well. Keeping some historical data and being able to graph them over time is a good additional project. One could store the data on an SD card or rely it via wireless. There is a section of code that shows how to output data in a CVS format for later analysis. The library is located here. 
+The LCD is based on the old Nokia 5110 LCD screen used in their phones. It is a decent sreen and easy to find. It is 84x48 pixels. This model uses SPI for its communication with the Arduino. There are other ones out there that use the I2C protocol which only requires 4 pins. There are some different libraries out there. I used xxx in this project. The basic functions are well-documented and they also have an additional library with graphical functions in it as well. Keeping some historical data and being able to graph them over time is a good additional project. One could store the data on an SD card or rely it via wireless. There is a section of code that shows how to output data in a CVS format for later analysis. The library is located here. 
 		
-
-Wiring for the DHT22
-
-The DHT22 is a low-cost, but accurate, digital temperature and humidity sensor. It has a captive humidity sensor and a thermistor for reading the ambient temperature. It is 3-5v tolerant for both the Vcc (power in) and digital signal line (pin 2). 
-	The pins are 1 -4, left to right, looking at the front (the grill side).
-	
+<P>
+<B>Wiring for the DHT22</B>
+<P>	
 	DHT22 Pin	Arduino Pin
 	1		5v
 	2		2 (plus add 10k resistor to power)
 	3		Open, not used
 	4		Ground
-	
-Wiring for the BMP280
-	
+The DHT22 is a low-cost, but accurate, digital temperature and humidity sensor. It has a captive humidity sensor and a thermistor for reading the ambient temperature. It is 3-5v tolerant for both the Vcc (power in) and digital signal line (pin 2). The pins are 1 -4, left to right, looking at the front (the grill side).
+
+<P>
+<B>Wiring for the BMP280</B>
+<P>
+BMP820 Pin		Arduino Pin
+Vcc			3.3v
+GND			Ground
+SCL			A5
+SDA			A4
+CSB			Open, not used
+SD0			Pull high with power with xx resistor for address 0x76
+			pull low with ground xx resistor for address 0x77
+<P>
+
