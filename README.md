@@ -60,7 +60,7 @@ The DHT22 is a low-cost, but accurate, digital temperature and humidity sensor. 
 <P>
 Arduino pin 2 is used in this sketch, but any other pin could be used. 
 <P>
-Here is a link to the <A HREF="http://www.electroschematics.com/wp-content/uploads/2015/02/DHT22-datasheet.pdf">datasheet for the DHT22.</A>
+Here is a link to the <A HREF="http://www.electroschematics.com/wp-content/uploads/2015/02/DHT22-datasheet.pdf">DHT22 datasheet.</A>
 <P>
 
 <P>
@@ -96,6 +96,10 @@ Here is a link to the <A HREF="http://www.electroschematics.com/wp-content/uploa
     <td class="tg-yw4l">High - 0x76<br>Low - 0x77</td>
   </tr>
 </table>
+<P>
+Blah, Blah.
+<P>
+Here is a link to the <A HREF="https://www.bosch-sensortec.com/bst/products/all_products/bmp280">BMP280 datasheet.</A>
 <H2>The LCD</H2>
 <P>
 
