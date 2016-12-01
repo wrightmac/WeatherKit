@@ -153,4 +153,10 @@ The LCD is based on the old Nokia 5110 LCD screen used in their past phones. It 
 <P>
 The library used is <A HREF="http://www.rinkydinkelectronics.com/download.php?f=LCD5110_Basic.zip">located here.</A> 
 <P>
+<H2>Code it up</H2>
+<P>
+As of this writing the lastest version of the sketch is 0.6. Check back for updated versions. I have tried to comment the code to make it easy to follow. I know that good comments make it easier to follow along what is happening. And when one is learning this is a good thing. 
+<P>
+Launch the Arduino IDE, open up the sketch Weather0.6.ino found in this github. From the Tools, make sure you are working with the right board, both model and serial port used. A quick verify and compile, then upload. If you have not used the Arduino IDE before there are several great tutorials out there. Here is a good starting point for the first timers, head to this <A HREF="http://www.instructables.com/id/Intro-to-Arduino/step3/Arduino-IDE/">Instructable.</A>
+Launch the Arduino IDE, open the weather sketch. 
 
